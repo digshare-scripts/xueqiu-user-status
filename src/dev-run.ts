@@ -4,4 +4,7 @@ import script from './script';
 
 void devRun(script, {
   payload: {},
+  storage: {
+    pushed: [],
+  },
 });
